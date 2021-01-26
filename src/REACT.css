@@ -1,0 +1,122 @@
+body {
+  margin-top: -30px;
+  background: radial-gradient(lightgrey, rgb(46, 42, 42));
+}
+.top {
+  height: 100px;
+  margin-top: 0px;
+  background: radial-gradient(lightgrey, rgb(46, 42, 42));
+  text-align: center;
+  box-sizing: border-box;
+}
+.top-list {
+  font-size: 25px;
+  list-style: none;
+  display: flex;
+  padding-left: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+li {
+  padding-top: 20px;
+}
+.top-icon {
+  padding-left: 0px;
+  height: 80px;
+  width: 80px;
+}
+.search-bar {
+  padding-top: 35px;
+  flex-grow: 5;
+}
+.inputt {
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  border-radius: 15px;
+  height: 40px;
+  width: 200px;
+}
+.btn {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #ddd;
+  border-radius: 10px;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  border: none;
+  font-size: 15px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: orangered;
+  border: 1px solid grey;
+  color: white;
+}
+.tabs {
+  display: flex;
+  font-size: 20px;
+  height: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.tab {
+  padding: 10px;
+  flex-grow: 1;
+  border: 2px groove grey;
+  background: rgb(247, 227, 227);
+}
+.movie-card {
+  background: grey;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  border-radius: 10px;
+}
+.movie-card:hover {
+  background: rgb(253, 253, 241);
+}
+.left {
+  width: 40px;
+  height: 40px;
+}
+.right {
+  margin-left: 200px;
+  margin-top: -45px;
+}
+.poster {
+  border-radius: 12px;
+  height: 250px;
+  width: 190px;
+}
+.title {
+  padding-top: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 35px;
+  color: rgb(240, 165, 165);
+  padding-left: 15px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  font-weight: bolder;
+}
+.plot {
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.genres {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 15px;
+}
+.btn1 {
+  text-align: right;
+  margin-top: -32px;
+}
